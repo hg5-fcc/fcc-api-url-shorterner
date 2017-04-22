@@ -3,7 +3,7 @@ const express = require('express');
 const app     = express();
 const assert  = require('assert');
 
-const mongo_uri = process.env.MONGOHQ_URL ||
+const mongo_uri = process.env.MONGODB_URI ||
     'mongodb://localhost/fcc-api-url-shorterner';
 
 const MongoClient = require('mongodb').MongoClient
