@@ -1,0 +1,14 @@
+{
+  "name": "url_shoterner",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.X.X",
+    "mongodb": "^2.2.26",
+    "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": "7.X.X",
+    "npm": "4.X.X"
+  }
+}
